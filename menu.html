@@ -1,0 +1,1437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Rokkitt:wght@400;600&family=Yeseva+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header lock-padding">
+        <div class="header__container _container">
+            <div class="header__desktop">
+                <div class="header__logo">
+                    <a href="./index.html">
+                        <img src="./img/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="header__items">
+                    <div class="header__item">
+                        <div class="header__item-title">Служба доставки:</div>
+                        <div class="header__item-wrapper">
+                            <div class="header__item-icon"><img src="./img/icon/call.svg" alt=""></div>
+                            <div class="header__item-number">8 (812) 643 04 04</div>
+                        </div>
+                        <div class="header__item-button">
+                            <a class="header-button" href="./menu.html">Доставка</a>
+                        </div>
+                    </div>
+                    <div class="header__item">
+                        <div class="header__item-title">Служба бронирования:</div>
+                        <div class="header__item-wrapper">
+                            <div class="header__item-icon"><img src="./img/icon/call.svg" alt=""></div>
+                            <div class="header__item-number">8 (812) 643 04 30</div>
+                        </div>
+                        <div class="header__item-button">
+                            <a class="header-button" href="">Забронировать</a>
+                        </div>
+                    </div>
+                    <div class="header__item">
+                        <div class="header__item-title">Банкетная служба:</div>
+                        <div class="header__item-wrapper">
+                            <div class="header__item-icon"><img src="./img/icon/call.svg" alt=""></div>
+                            <div class="header__item-number">8 (965) 010 62 61</div>
+                        </div>
+                        <div class="header__item-button">
+                            <a class="header-button" href="">Забронировать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__about">
+                    <div class="header__about-items">
+                        <div class="header__about-item">
+                            <div class="header__about-item-profile">
+                                <img src="./img/icon/Profile.svg" alt="">
+                            </div>
+                            <div class="header__about-item-flag">
+                                <img src="./img/icon/flagRu.svg" alt="">
+                            </div>
+                            <div class="header__about-item-lang">
+                                RU
+                            </div>
+                        </div>
+                        <div class="header__about-item"></div>
+                    </div>
+                    <div class="header__about-social">
+                        <img class="header__about-social-img" src="./img/icon/googleplayicons.svg" alt="">
+                        <img class="header__about-social-img" src="./img/icon/Vkicons.svg" alt="">
+                        <img class="header__about-social-img" src="./img/icon/Instagramicons.svg" alt="">
+                        <img class="header__about-social-img" src="./img/icon/facebookicons.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__mobile _container">
+            <div class="header__mobile-profile">
+                <img src="./img/icon/Profile.svg" alt="">
+            </div>
+            <div class="header__mobile-logo">
+                <img src="./img/logo.svg" alt="">
+            </div>
+            <div class="header__mobile-flag">
+                <img src="./img/icon/flagRu.svg" alt="">
+            </div>
+        </div>
+    </header>
+    <main class="main__menu">
+        <div class="wrapper">
+            <div class="delivery-menu">
+                <div class="delivery-menu__container _container">
+                    <div class="delivery-menu-title">Доставка</div>
+                    <div class="delivery-menu-content delivery-content">
+                        <div class="delivery-content__descr">
+                            <div class="delivery-content__descr-items content__descr">
+                                <div class="content__descr-item">
+                                    <img src="./img/menu__delivery/clock.svg" alt="">
+                                    Ежедневно с 11:00 до 22:00
+                                </div>
+                                <div class="content__descr-item">
+                                    <img src="./img/menu__delivery/conditions.svg" alt="">
+                                    Условия доставки
+                                </div>
+                                <div class="content__descr-item">
+                                    <img src="./img/menu__delivery/call.svg" alt="">
+                                    8 (812) 643 04 04
+                                </div>
+                                <div class="content__descr-item">
+                                    <img src="./img/menu__delivery/auto.svg" alt="">
+                                    Доставка ~ 60 минут
+                                </div>
+                            </div>
+                            <div class="delivery-content-cards">
+                                <div class="delivery-content-cards_one">
+                                    <div class="delivery-content-cards__title">Специальное
+                                        предложение</div>
+                                    <img src="./img/menu__delivery/slider/bant.svg" alt="">
+                                </div>
+                                <div class="delivery-content-cards_two">
+                                    <div class="delivery-content-cards__title">Мобильный
+                                        фуршет</div>
+                                    <img src="./img/menu__delivery/slider/sushi.svg" alt="">
+                                </div>
+                                <div class="delivery-content-cards_three">
+                                    <div class="delivery-content-cards__title">новогоднее
+                                        меню</div>
+                                    <img src="./img/menu__delivery/slider/newYear.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="delivery-content-slider">
+                            <div class="swiper deliverySwiper _container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide stock_slider">
+                                        <div class="delivery-content-cards_one">
+                                            <div class="delivery-content-cards__title">Специальное
+                                                предложение</div>
+                                            <img src="./img/menu__delivery/slider/bant.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide stock_slider">
+                                        <div class="delivery-content-cards_two">
+                                            <div class="delivery-content-cards__title">Мобильный
+                                                фуршет</div>
+                                            <img src="./img/menu__delivery/slider/sushi.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide stock_slider">
+                                        <div class="delivery-content-cards_three">
+                                            <div class="delivery-content-cards__title">новогоднее
+                                                меню</div>
+                                            <img src="./img/menu__delivery/slider/newYear.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="delivery__menu-mobile menu-mobile">
+                <div class="menu-mobile-btn">
+                    <a class="menu-mobile-button" href="#">
+                        <img src="./img/icon/traced.svg" class="menu-mobile-icon" />
+                        <div class="menu-mobile-text">Горячие закуски</div>
+                        <img src="./img/icon/arrow.svg" class="menu-mobile-iconOpen">
+                    </a>
+                </div>
+                <div class="menu-mobile-title">
+                    <div class="menu-mobile-text">
+                        Горячие закуски
+                    </div>
+                    <hr class="hr-line-mobile">
+                </div>
+                <div class="menu-mobile-card mobile-card">
+                    <div class="mobile-card-img"><img src="./img/mobile_menyEat.svg" alt=""></div>
+                    <div class="menu-card-body">
+                        <div class="mobile-card-title">Каша из цветной капусты с раковыми шейками</div>
+                        <div class="mobile-card-price card-price">
+                            <div class="card-price-weight">290 г</div>
+                            <div class="card-price-no">738 ₽</div>
+                            <div class="card-price-yes">738 ₽</div>
+                        </div>
+                        <div class="mobile-card-counter">
+                            <div class="menu-counter" data-counter>
+                                <div class="menu-counter__button counter__button_minus">-</div>
+                                <div class="menu-counter__input"><input value="1" type="text" disabled></div>
+                                <div class="menu-counter__button counter__button_plus">+</div>
+                            </div>
+                            <div class="mobile-card-btn">
+                                <a href="#popup-dish" class="mobile-card-button popup-link">В корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-mobile-card mobile-card">
+                    <div class="mobile-card-img"><img src="./img/mobile_menyEat.svg" alt=""></div>
+                    <div class="menu-card-body">
+                        <div class="mobile-card-title">Каша из цветной капусты с раковыми шейками</div>
+                        <div class="mobile-card-price card-price">
+                            <div class="card-price-weight">290 г</div>
+                            <div class="card-price-no">738 ₽</div>
+                            <div class="card-price-yes">738 ₽</div>
+                        </div>
+                        <div class="mobile-card-counter">
+                            <div class="menu-counter" data-counter>
+                                <div class="menu-counter__button counter__button_minus">-</div>
+                                <div class="menu-counter__input"><input value="1" type="text" disabled></div>
+                                <div class="menu-counter__button counter__button_plus">+</div>
+                            </div>
+                            <div class="mobile-card-btn">
+                                <a href="#popup-dish" class="mobile-card-button popup-link">В корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-mobile-card mobile-card">
+                    <div class="mobile-card-img"><img src="./img/mobile_menyEat.svg" alt=""></div>
+                    <div class="menu-card-body">
+                        <div class="mobile-card-title">Каша из цветной капусты с раковыми шейками</div>
+                        <div class="mobile-card-price card-price">
+                            <div class="card-price-weight">290 г</div>
+                            <div class="card-price-no">738 ₽</div>
+                            <div class="card-price-yes">738 ₽</div>
+                        </div>
+                        <div class="mobile-card-counter">
+                            <div class="menu-counter" data-counter>
+                                <div class="menu-counter__button counter__button_minus">-</div>
+                                <div class="menu-counter__input"><input value="1" type="text" disabled></div>
+                                <div class="menu-counter__button counter__button_plus">+</div>
+                            </div>
+                            <div class="mobile-card-btn">
+                                <a href="#popup-dish" class="mobile-card-button popup-link">В корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-mobile-card mobile-card">
+                    <div class="mobile-card-img"><img src="./img/mobile_menyEat.svg" alt=""></div>
+                    <div class="menu-card-body">
+                        <div class="mobile-card-title">Каша из цветной капусты с раковыми шейками</div>
+                        <div class="mobile-card-price card-price">
+                            <div class="card-price-weight">290 г</div>
+                            <div class="card-price-no">738 ₽</div>
+                            <div class="card-price-yes">738 ₽</div>
+                        </div>
+                        <div class="mobile-card-counter">
+                            <div class="menu-counter" data-counter>
+                                <div class="menu-counter__button counter__button_minus">-</div>
+                                <div class="menu-counter__input"><input value="1" type="text" disabled></div>
+                                <div class="menu-counter__button counter__button_plus">+</div>
+                            </div>
+                            <div class="mobile-card-btn">
+                                <a href="#popup-dish" class="mobile-card-button popup-link">В корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="menu__container _container">
+                    <div class="menu__header">
+                        <div class="menu__header-desktop">
+                            <div class="menu__header-desktop-title">Категории:</div>
+                            <ul class="menu__header-items">
+                                <li class="menu__header-item"><a href="">Салаты</a></li>
+                                <li class="menu__header-item"><a href="">Супы</a></li>
+                                <li class="menu__header-item"><a href="">Паста</a></li>
+                                <li class="menu__header-item"><a href="">Пицца</a></li>
+                                <li class="menu__header-item"><a href="">Горячие блюда</a></li>
+                                <li class="menu__header-item"><a href="">Десерты</a></li>
+                            </ul>
+                            <div class="menu__header-desktop-and">Еще:</div>
+                        </div>
+                    </div>
+                    <div class="menu__body">
+                        <div class="menu__items">
+
+                            <div class="menu__item">
+                                <div class="menu__item-img">
+                                    <img src="./img/menu__delivery/salat.svg" alt="">
+                                </div>
+                                <div class="menu__item-descr menu-descr">
+
+                                    <div class="menu__item-body">
+                                        <div class="menu-decsr-info">
+
+                                            <div class="menu-descr-price">
+                                                <div class="menu-descr-price-sales">549₽</div>
+                                                <div class="menu-descr-price-nosales">610₽</div>
+                                            </div>
+
+                                            <div class="menu-descr-weight">
+                                                190гр
+                                            </div>
+                                        </div>
+
+                                        <div class="menu-descr-text">
+                                            Салат с сырокопченой уткой, хурмой и страчателлой
+                                        </div>
+
+                                        <div class="menu-descr-btn">
+                                            <a class="menu-descr-button" href="">
+                                                <div class="menu-descr-button_title">Добавить</div>
+                                                <div class="counter" data-counter>
+                                                    <div class="counter__button counter__button_minus">-</div>
+                                                    <div class="counter__input"><input value="1" type="text" disabled>
+                                                    </div>
+                                                    <div class="counter__button counter__button_plus">+</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu__item">
+                                <div class="menu__item-img">
+                                    <img src="./img/menu__delivery/salat.svg" alt="">
+                                </div>
+                                <div class="menu__item-descr menu-descr">
+
+                                    <div class="menu__item-body">
+                                        <div class="menu-decsr-info">
+
+                                            <div class="menu-descr-price">
+                                                <div class="menu-descr-price-sales">549₽</div>
+                                                <div class="menu-descr-price-nosales">610₽</div>
+                                            </div>
+
+                                            <div class="menu-descr-weight">
+                                                190гр
+                                            </div>
+                                        </div>
+
+                                        <div class="menu-descr-text">
+                                            Салат с сырокопченой уткой, хурмой и страчателлой
+                                        </div>
+
+                                        <div class="menu-descr-btn">
+                                            <a class="menu-descr-button" href="">
+                                                <div class="menu-descr-button_title">Добавить</div>
+                                                <div class="counter" data-counter>
+                                                    <div class="counter__button counter__button_minus">-</div>
+                                                    <div class="counter__input"><input value="1" type="text" disabled>
+                                                    </div>
+                                                    <div class="counter__button counter__button_plus">+</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu__item">
+                                <div class="menu__item-img">
+                                    <img src="./img/menu__delivery/salat.svg" alt="">
+                                </div>
+                                <div class="menu__item-descr menu-descr">
+
+                                    <div class="menu__item-body">
+                                        <div class="menu-decsr-info">
+
+                                            <div class="menu-descr-price">
+                                                <div class="menu-descr-price-sales">549₽</div>
+                                                <div class="menu-descr-price-nosales">610₽</div>
+                                            </div>
+
+                                            <div class="menu-descr-weight">
+                                                190гр
+                                            </div>
+                                        </div>
+
+                                        <div class="menu-descr-text">
+                                            Салат с сырокопченой уткой, хурмой и страчателлой
+                                        </div>
+
+                                        <div class="menu-descr-btn">
+                                            <a class="menu-descr-button" href="">
+                                                <div class="menu-descr-button_title">Добавить</div>
+                                                <div class="counter" data-counter>
+                                                    <div class="counter__button counter__button_minus">-</div>
+                                                    <div class="counter__input"><input value="1" type="text" disabled>
+                                                    </div>
+                                                    <div class="counter__button counter__button_plus">+</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu__item">
+                                <div class="menu__item-img">
+                                    <img src="./img/menu__delivery/salat.svg" alt="">
+                                </div>
+                                <div class="menu__item-descr menu-descr">
+
+                                    <div class="menu__item-body">
+                                        <div class="menu-decsr-info">
+
+                                            <div class="menu-descr-price">
+                                                <div class="menu-descr-price-sales">549₽</div>
+                                                <div class="menu-descr-price-nosales">610₽</div>
+                                            </div>
+
+                                            <div class="menu-descr-weight">
+                                                190гр
+                                            </div>
+                                        </div>
+
+                                        <div class="menu-descr-text">
+                                            Салат с сырокопченой уткой, хурмой и страчателлой
+                                        </div>
+
+                                        <div class="menu-descr-btn">
+                                            <a class="menu-descr-button" href="">
+                                                <div class="menu-descr-button_title">Добавить</div>
+                                                <div class="counter" data-counter>
+                                                    <div class="counter__button counter__button_minus">-</div>
+                                                    <div class="counter__input"><input value="1" type="text" disabled>
+                                                    </div>
+                                                    <div class="counter__button counter__button_plus">+</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu__item">
+                                <div class="menu__item-img">
+                                    <img src="./img/menu__delivery/salat.svg" alt="">
+                                </div>
+                                <div class="menu__item-descr menu-descr">
+
+                                    <div class="menu__item-body">
+                                        <div class="menu-decsr-info">
+
+                                            <div class="menu-descr-price">
+                                                <div class="menu-descr-price-sales">549₽</div>
+                                                <div class="menu-descr-price-nosales">610₽</div>
+                                            </div>
+
+                                            <div class="menu-descr-weight">
+                                                190гр
+                                            </div>
+                                        </div>
+
+                                        <div class="menu-descr-text">
+                                            Салат с сырокопченой уткой, хурмой и страчателлой
+                                        </div>
+
+                                        <div class="menu-descr-btn">
+                                            <a class="menu-descr-button" href="">
+                                                <div class="menu-descr-button_title">Добавить</div>
+                                                <div class="counter" data-counter>
+                                                    <div class="counter__button counter__button_minus">-</div>
+                                                    <div class="counter__input"><input value="1" type="text" disabled>
+                                                    </div>
+                                                    <div class="counter__button counter__button_plus">+</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu__item">
+                                <div class="menu__item-img">
+                                    <img src="./img/menu__delivery/salat.svg" alt="">
+                                </div>
+                                <div class="menu__item-descr menu-descr">
+
+                                    <div class="menu__item-body">
+                                        <div class="menu-decsr-info">
+
+                                            <div class="menu-descr-price">
+                                                <div class="menu-descr-price-sales">549₽</div>
+                                                <div class="menu-descr-price-nosales">610₽</div>
+                                            </div>
+
+                                            <div class="menu-descr-weight">
+                                                190гр
+                                            </div>
+                                        </div>
+
+                                        <div class="menu-descr-text">
+                                            Салат с сырокопченой уткой, хурмой и страчателлой
+                                        </div>
+
+                                        <div class="menu-descr-btn">
+                                            <a class="menu-descr-button" href="">
+                                                <div class="menu-descr-button_title">Добавить</div>
+                                                <div class="counter" data-counter>
+                                                    <div class="counter__button counter__button_minus">-</div>
+                                                    <div class="counter__input"><input value="1" type="text" disabled>
+                                                    </div>
+                                                    <div class="counter__button counter__button_plus">+</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu__item">
+                                <div class="menu__item-img">
+                                    <img src="./img/menu__delivery/salat.svg" alt="">
+                                </div>
+                                <div class="menu__item-descr menu-descr">
+
+                                    <div class="menu__item-body">
+                                        <div class="menu-decsr-info">
+
+                                            <div class="menu-descr-price">
+                                                <div class="menu-descr-price-sales">549₽</div>
+                                                <div class="menu-descr-price-nosales">610₽</div>
+                                            </div>
+
+                                            <div class="menu-descr-weight">
+                                                190гр
+                                            </div>
+                                        </div>
+
+                                        <div class="menu-descr-text">
+                                            Салат с сырокопченой уткой, хурмой и страчателлой
+                                        </div>
+
+                                        <div class="menu-descr-btn">
+                                            <a class="menu-descr-button" href="">
+                                                <div class="menu-descr-button_title">Добавить</div>
+                                                <div class="counter" data-counter>
+                                                    <div class="counter__button counter__button_minus">-</div>
+                                                    <div class="counter__input"><input value="1" type="text" disabled>
+                                                    </div>
+                                                    <div class="counter__button counter__button_plus">+</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu__item">
+                                <div class="menu__item-img">
+                                    <img src="./img/menu__delivery/salat.svg" alt="">
+                                </div>
+                                <div class="menu__item-descr menu-descr">
+
+                                    <div class="menu__item-body">
+                                        <div class="menu-decsr-info">
+
+                                            <div class="menu-descr-price">
+                                                <div class="menu-descr-price-sales">549₽</div>
+                                                <div class="menu-descr-price-nosales">610₽</div>
+                                            </div>
+
+                                            <div class="menu-descr-weight">
+                                                190гр
+                                            </div>
+                                        </div>
+
+                                        <div class="menu-descr-text">
+                                            Салат с сырокопченой уткой, хурмой и страчателлой
+                                        </div>
+
+                                        <div class="menu-descr-btn">
+                                            <a class="menu-descr-button" href="">
+                                                <div class="menu-descr-button_title">Добавить</div>
+                                                <div class="counter" data-counter>
+                                                    <div class="counter__button counter__button_minus">-</div>
+                                                    <div class="counter__input"><input value="1" type="text" disabled>
+                                                    </div>
+                                                    <div class="counter__button counter__button_plus">+</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu__item">
+                                <div class="menu__item-img">
+                                    <img src="./img/menu__delivery/salat.svg" alt="">
+                                </div>
+                                <div class="menu__item-descr menu-descr">
+
+                                    <div class="menu__item-body">
+                                        <div class="menu-decsr-info">
+
+                                            <div class="menu-descr-price">
+                                                <div class="menu-descr-price-sales">549₽</div>
+                                                <div class="menu-descr-price-nosales">610₽</div>
+                                            </div>
+
+                                            <div class="menu-descr-weight">
+                                                190гр
+                                            </div>
+                                        </div>
+
+                                        <div class="menu-descr-text">
+                                            Салат с сырокопченой уткой, хурмой и страчателлой
+                                        </div>
+
+                                        <div class="menu-descr-btn">
+                                            <a class="menu-descr-button" href="">
+                                                <div class="menu-descr-button_title">Добавить</div>
+                                                <div class="counter" data-counter>
+                                                    <div class="counter__button counter__button_minus">-</div>
+                                                    <div class="counter__input"><input value="1" type="text" disabled>
+                                                    </div>
+                                                    <div class="counter__button counter__button_plus">+</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu__check-wrapper">
+                            <div class="menu__check check">
+                                <div class="check__title">Моя доставка</div>
+                                <div class="check__body">
+                                    <div class="check__subtitle">мой заказ</div>
+                                    <ul class="check__items">
+                                        <li class="check__item">
+                                            <div class="check__item-name">Салат с сырокопченой уткой, хурмой и
+                                                страчателлой
+                                            </div>
+                                            <div class="check__item-counter">1</div>
+                                            <div class="check__item-price">549₽</div>
+                                        </li>
+                                        <li class="check__item">
+                                            <div class="check__item-name">Салат с сырокопченой уткой, хурмой и
+                                                страчателлой
+                                            </div>
+                                            <div class="check__item-counter">1</div>
+                                            <div class="check__item-price">549₽</div>
+                                        </li>
+                                        <li class="check__item">
+                                            <div class="check__item-name">Салат с сырокопченой уткой, хурмой и
+                                                страчателлой
+                                            </div>
+                                            <div class="check__item-counter">1</div>
+                                            <div class="check__item-price">549₽</div>
+                                        </li>
+                                        <li class="check__item">
+                                            <div class="check__item-name">Салат с сырокопченой уткой,<br /> хурмой и
+                                                страчателлой</div>
+                                        </li>
+                                    </ul>
+                                    <div class="line">
+                                        <hr class="hr-line">
+                                    </div>
+                                    <div class="check__price">
+                                        <div class="check__price-text">ИТОГО:</div>
+                                        <div class="check__price-counter">549₽</div>
+                                    </div>
+                                    <div class="check__price-bottomTitle">Заказать</div>
+                                    <div class="check__price-btn">
+                                        <a class="check__price-button" href="./order.html">Оформить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="delicious">
+                    <div class="delicious__container _container">
+                        <div class="delicious__title">Так же вкусно!</div>
+                    </div>
+                    <div class="swiper deliciousSwiper _container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slider__item">
+                                    <div class="slider__item-title">Рекомендуем к вашему заказу</div>
+                                    <div class="slider__item-img"><img src="./img/hinkali.svg" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <img src="./img/menu__delivery/salat.svg" alt="">
+                                    </div>
+                                    <div class="menu__item-descr menu-descr">
+
+                                        <div class="menu__item-body">
+                                            <div class="menu-decsr-info">
+
+                                                <div class="menu-descr-price">
+                                                    <div class="menu-descr-price-sales">549₽</div>
+                                                    <div class="menu-descr-price-nosales">610₽</div>
+                                                </div>
+
+                                                <div class="menu-descr-weight">
+                                                    190гр
+                                                </div>
+                                            </div>
+
+                                            <div class="menu-descr-text">
+                                                Салат с сырокопченой уткой, хурмой и страчателлой
+                                            </div>
+
+                                            <div class="menu-descr-btn">
+                                                <a class="menu-descr-button" href="">
+                                                    <div class="menu-descr-button_title">Добавить</div>
+                                                    <div class="counter" data-counter>
+                                                        <div class="counter__button counter__button_minus">-</div>
+                                                        <div class="counter__input"><input value="1" type="text"
+                                                                disabled>
+                                                        </div>
+                                                        <div class="counter__button counter__button_plus">+</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <img src="./img/menu__delivery/salat.svg" alt="">
+                                    </div>
+                                    <div class="menu__item-descr menu-descr">
+
+                                        <div class="menu__item-body">
+                                            <div class="menu-decsr-info">
+
+                                                <div class="menu-descr-price">
+                                                    <div class="menu-descr-price-sales">549₽</div>
+                                                    <div class="menu-descr-price-nosales">610₽</div>
+                                                </div>
+
+                                                <div class="menu-descr-weight">
+                                                    190гр
+                                                </div>
+                                            </div>
+
+                                            <div class="menu-descr-text">
+                                                Салат с сырокопченой уткой, хурмой и страчателлой
+                                            </div>
+
+                                            <div class="menu-descr-btn">
+                                                <a class="menu-descr-button" href="">
+                                                    <div class="menu-descr-button_title">Добавить</div>
+                                                    <div class="counter" data-counter>
+                                                        <div class="counter__button counter__button_minus">-</div>
+                                                        <div class="counter__input"><input value="1" type="text"
+                                                                disabled>
+                                                        </div>
+                                                        <div class="counter__button counter__button_plus">+</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <img src="./img/menu__delivery/salat.svg" alt="">
+                                    </div>
+                                    <div class="menu__item-descr menu-descr">
+
+                                        <div class="menu__item-body">
+                                            <div class="menu-decsr-info">
+
+                                                <div class="menu-descr-price">
+                                                    <div class="menu-descr-price-sales">549₽</div>
+                                                    <div class="menu-descr-price-nosales">610₽</div>
+                                                </div>
+
+                                                <div class="menu-descr-weight">
+                                                    190гр
+                                                </div>
+                                            </div>
+
+                                            <div class="menu-descr-text">
+                                                Салат с сырокопченой уткой, хурмой и страчателлой
+                                            </div>
+
+                                            <div class="menu-descr-btn">
+                                                <a class="menu-descr-button" href="">
+                                                    <div class="menu-descr-button_title">Добавить</div>
+                                                    <div class="counter" data-counter>
+                                                        <div class="counter__button counter__button_minus">-</div>
+                                                        <div class="counter__input"><input value="1" type="text"
+                                                                disabled>
+                                                        </div>
+                                                        <div class="counter__button counter__button_plus">+</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <img src="./img/menu__delivery/salat.svg" alt="">
+                                    </div>
+                                    <div class="menu__item-descr menu-descr">
+
+                                        <div class="menu__item-body">
+                                            <div class="menu-decsr-info">
+
+                                                <div class="menu-descr-price">
+                                                    <div class="menu-descr-price-sales">549₽</div>
+                                                    <div class="menu-descr-price-nosales">610₽</div>
+                                                </div>
+
+                                                <div class="menu-descr-weight">
+                                                    190гр
+                                                </div>
+                                            </div>
+
+                                            <div class="menu-descr-text">
+                                                Салат с сырокопченой уткой, хурмой и страчателлой
+                                            </div>
+
+                                            <div class="menu-descr-btn">
+                                                <a class="menu-descr-button" href="">
+                                                    <div class="menu-descr-button_title">Добавить</div>
+                                                    <div class="counter" data-counter>
+                                                        <div class="counter__button counter__button_minus">-</div>
+                                                        <div class="counter__input"><input value="1" type="text"
+                                                                disabled>
+                                                        </div>
+                                                        <div class="counter__button counter__button_plus">+</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="stock _menu-stock">
+                <div class="stock__container _container">
+                    <div class="stock__title">Акции</div>
+                    <div class="swiper stockSwiper _container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide stock_slider">
+                                <div class="stock__item_wrapper">
+                                    <div class="stock__item-img">
+                                        <img src="./img/slider_rest/ferma.svg" alt="">
+                                    </div>
+                                    <div class="stock__item-subtitle">
+                                        Мобильный<br /> фуршет
+                                    </div>
+                                    <div class="stock__item-descr">
+                                        Широкий выбор мини-<br />закусок на любой вкус
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide stock_slider">
+                                <div class="stock__itemTwo_wrapper">
+                                    <div class="stock__itemTwo-subtitle">
+                                        праздничный стол<br /> от ресторана
+                                    </div>
+                                    <div class="stock__itemTwo-img">
+                                        <img src="./img/fermer_white.svg" alt="">
+                                    </div>
+                                    <div class="stock__itemTwo-descr">
+                                        скидка на доставку<br /> равную дате рождения </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide  stock_slider">
+                                <div class="stock__itemThree_wrapper">
+                                    <div class="stock__itemThree-subtitle">
+                                        Десерты<br /> и
+                                        полуфабрикаты
+                                    </div>
+                                    <div class="stock__itemThree-img">
+                                        <img src="./img/fermer_white.svg" alt="">
+                                    </div>
+                                    <div class="stock__itemThree-descr">
+                                        по цене кондитерской <br />прямо до дома
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contacts">
+                <div class="contacts__container">
+                    <div class="contacts__title block__title">
+                        КОНТАКТЫ
+                    </div>
+                    <div class="block__subtitle">
+                        Ежедневно с 11:00 до 22:00
+                    </div>
+                    <div class="contacts__items">
+                        <div class="contact__item">
+                            <img src="./img/icon/call.svg" alt="">
+                            <div class="contact__item-text">
+                                <span>Единая служба бронирования:</span><br>
+                                8 (812) 643 04 30
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <img src="./img/icon/call.svg" alt="">
+                            <div class="contact__item-text">
+                                <span>Служба доставки:</span><br>
+                                8 (812) 643 04 04
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <img src="./img/icon/call.svg" alt="">
+                            <div class="contact__item-text">
+                                <span>Банкетная служба:</span><br>
+                                8 (965) 010 62 61
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="nav lock-padding">
+                <a href="#" class="nav__link">
+                    <span class="nav__text">ГЛАВНАЯ</span>
+                    <img class="nav__icon" src="./img/mobileMenu/roof.svg" alt="">
+                </a>
+                <a href="#popup" class="nav__link popup-link">
+                    <span class="nav__text">ДОСТАВКА</span>
+                    <div class="nav__img--container">
+                        <img class="nav__icon" src="./img/mobileMenu/deliver.svg" alt="">
+                    </div>
+                </a>
+                <a href="#popup-map" class="nav__link popup-link">
+                    <span class="nav__text">КОНТАКТЫ</span>
+                    <img class="nav__icon" src="./img/mobileMenu/call.svg" alt="">
+                </a>
+                <a href="#popup-basket" class="nav__link popup-link">
+                    <span class="nav__text">КОРЗИНА</span>
+                    <img class="nav__icon" src="./img/mobileMenu/basket.svg" alt="">
+                </a>
+            </nav>
+            <div class="map">
+                <div class="map__container _container">
+                    <div class="map__title">
+                        МЫ НА КАРТЕ
+                    </div>
+                    <div class="map__item">
+                        <script type="text/javascript" charset="utf-8" async
+                            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adecc5dee05ef3f4a9d5c31885df697ceb6c979ed216f3307366146026bfb76a8&amp;width=100%25&amp;height=632&amp;lang=ru_RU&amp;scroll=true"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="popup-dish" class="popup-dish popup">
+        <div class="popup-dish__body popup-body">
+            <div class="popup-dish__content popup__content">
+                <a href="#" class="popup-dish__close close__popup"><img src="./img/icon/close_popup.svg" alt=""></a>
+                <div class="popup-dish-title">Каша из цветной капусты с раковыми шейками</div>
+                <div class="popup-dish-subtitle">добавьте опцию</div>
+                <div class="popup-dish-line"></div>
+                <div class="popup-dish__block">
+                    <div class="popup-dish__img">
+                        <img src="./img/soupBig.svg" alt="">
+                    </div>
+                    <div class="popup-dish__wrap">
+                        <div class="dish__wrap-descr">
+                            Легкое описание продукта, предоставляющее информацию о составе или методе приготовления, а
+                            так же уникальности блюда.
+                        </div>
+                        <div class="dish__wrap-price">
+                            290 г
+                        </div>
+                    </div>
+                    <div class="counter" data-counter>
+                        <div class="counter__button counter__button_minus">-</div>
+                        <div class="counter__input"><input value="1" type="text" disabled></div>
+                        <div class="counter__button counter__button_plus">+</div>
+                    </div>
+                    <div class="popup-price">
+                        <div class="popup-price-no">738 ₽</div>
+                        <div class="popup-price-yes">738 ₽</div>
+                    </div>
+                    <div class="popup-counter" data-counter>
+                        <div class="popup-counter__button counter__button_minus">-</div>
+                        <div class="popup-counter__input"><input value="1" type="text" disabled></div>
+                        <div class="popup-counter__button counter__button_plus">+</div>
+                    </div>
+                    <div class="popup-dish-btn">
+                        <a href="#popup-basket" class="popup-dish-button popup-link">В корзину</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup-basket" class="popup-basket popup">
+        <div class="popup-basket__body popup__body">
+            <div class="popup-basket__content popup__content">
+                <a href="#" class="popup-basket__close close__popup"><img src="./img/icon/close_popup.svg" alt=""></a>
+                <div class="popup-basket-title">Корзина</div>
+                <div class="popup-basket-subtitle">Ваш заказ</div>
+                <div class="popup-basket-line"></div>
+                <div class="popup-basket-items">
+                    <div class="menu-mobile-card mobile-card">
+                        <div class="mobile-card-img"><img src="./img/mobile_menyEat.svg" alt=""></div>
+                        <div class="menu-card-body">
+                            <div class="mobile-card-title">Каша из цветной капусты с раковыми шейками</div>
+                            <div class="mobile-card-price card-price">
+                                <div class="card-price-weight">290 г</div>
+                                <div class="card-price-no">738 ₽</div>
+                                <div class="card-price-yes">738 ₽</div>
+                            </div>
+                            <div class="mobile-card-counter">
+                                <div class="menu-counter" data-counter>
+                                    <div class="menu-counter__button counter__button_minus">-</div>
+                                    <div class="menu-counter__input-popup"><input value="1" type="text" disabled></div>
+                                    <div class="menu-counter__button counter__button_plus">+</div>
+                                </div>
+                                <div class="mobile-card-btn">
+                                    <a href="#" class="mobile-card-button">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-mobile-card mobile-card">
+                        <div class="mobile-card-img"><img src="./img/mobile_menyEat.svg" alt=""></div>
+                        <div class="menu-card-body">
+                            <div class="mobile-card-title">Каша из цветной капусты с раковыми шейками</div>
+                            <div class="mobile-card-price card-price">
+                                <div class="card-price-weight">290 г</div>
+                                <div class="card-price-no">738 ₽</div>
+                                <div class="card-price-yes">738 ₽</div>
+                            </div>
+                            <div class="mobile-card-counter">
+                                <div class="menu-counter" data-counter>
+                                    <div class="menu-counter__button counter__button_minus">-</div>
+                                    <div class="menu-counter__input-popup"><input value="1" type="text" disabled></div>
+                                    <div class="menu-counter__button counter__button_plus">+</div>
+                                </div>
+                                <div class="mobile-card-btn">
+                                    <a href="" class="mobile-card-button">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-mobile-card mobile-card">
+                        <div class="mobile-card-img"><img src="./img/mobile_menyEat.svg" alt=""></div>
+                        <div class="menu-card-body">
+                            <div class="mobile-card-title">Каша из цветной капусты с раковыми шейками</div>
+                            <div class="mobile-card-price card-price">
+                                <div class="card-price-weight">290 г</div>
+                                <div class="card-price-no">738 ₽</div>
+                                <div class="card-price-yes">738 ₽</div>
+                            </div>
+                            <div class="mobile-card-counter">
+                                <div class="menu-counter" data-counter>
+                                    <div class="menu-counter__button counter__button_minus">-</div>
+                                    <div class="menu-counter__input-popup"><input value="1" type="text" disabled></div>
+                                    <div class="menu-counter__button counter__button_plus">+</div>
+                                </div>
+                                <div class="mobile-card-btn">
+                                    <a href="" class="mobile-card-button">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-mobile-card mobile-card">
+                        <div class="mobile-card-img"><img src="./img/mobile_menyEat.svg" alt=""></div>
+                        <div class="menu-card-body">
+                            <div class="mobile-card-title">Каша из цветной капусты с раковыми шейками</div>
+                            <div class="mobile-card-price card-price">
+                                <div class="card-price-weight">290 г</div>
+                                <div class="card-price-no">738 ₽</div>
+                                <div class="card-price-yes">738 ₽</div>
+                            </div>
+                            <div class="mobile-card-counter">
+                                <div class="menu-counter" data-counter>
+                                    <div class="menu-counter__button counter__button_minus">-</div>
+                                    <div class="menu-counter__input-popup"><input value="1" type="text" disabled></div>
+                                    <div class="menu-counter__button counter__button_plus">+</div>
+                                </div>
+                                <div class="mobile-card-btn">
+                                    <a href="" class="mobile-card-button">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-mobile-card mobile-card">
+                        <div class="mobile-card-img"><img src="./img/mobile_menyEat.svg" alt=""></div>
+                        <div class="menu-card-body">
+                            <div class="mobile-card-title">Каша из цветной капусты с раковыми шейками</div>
+                            <div class="mobile-card-price card-price">
+                                <div class="card-price-weight">290 г</div>
+                                <div class="card-price-no">738 ₽</div>
+                                <div class="card-price-yes">738 ₽</div>
+                            </div>
+                            <div class="mobile-card-counter">
+                                <div class="menu-counter" data-counter>
+                                    <div class="menu-counter__button counter__button_minus">-</div>
+                                    <div class="menu-counter__input-popup"><input value="1" type="text" disabled></div>
+                                    <div class="menu-counter__button counter__button_plus">+</div>
+                                </div>
+                                <div class="mobile-card-btn">
+                                    <a href="" class="mobile-card-button">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-mobile-card mobile-card">
+                        <div class="mobile-card-img"><img src="./img/mobile_menyEat.svg" alt=""></div>
+                        <div class="menu-card-body">
+                            <div class="mobile-card-title">Каша из цветной капусты с раковыми шейками</div>
+                            <div class="mobile-card-price card-price">
+                                <div class="card-price-weight">290 г</div>
+                                <div class="card-price-no">738 ₽</div>
+                                <div class="card-price-yes">738 ₽</div>
+                            </div>
+                            <div class="mobile-card-counter">
+                                <div class="menu-counter" data-counter>
+                                    <div class="menu-counter__button counter__button_minus">-</div>
+                                    <div class="menu-counter__input-popup"><input value="1" type="text" disabled></div>
+                                    <div class="menu-counter__button counter__button_plus">+</div>
+                                </div>
+                                <div class="mobile-card-btn">
+                                    <a href="" class="mobile-card-button">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buy">
+            <div class="buy-check">
+                <div class="buy-check-block">
+                    <div class="popup-bay-line"></div>
+                    <div class="buy-check-block-price">
+                        <div class="buy-check-block-title">Итого:</div>
+                        <div class="buy-check-block-price-no">2214 ₽</div>
+                        <div class="buy-check-block-price-yes">2214 ₽</div>
+                    </div>
+                </div>
+                <div class="buy-check-btn">
+                    <a href="#popup-order" class="buy-check-button popup-link">Оформить</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup-order" class="popup-order popup">
+        <div class="popup-order__body popup__body">
+            <div class="popup-order__content popup__content">
+                <a href="##" class="popup-order__close close__popup"><img src="./img/icon/close_popup.svg" alt=""></a>
+                <div class="popup-order-title">Оформление заказа</div>
+                <div class="popup-order-subtitle">Ваш заказ</div>
+                <div class="popup-order-line"></div>
+                <div class="popup-order__block">
+                    <div class="popup-thanks-delivery">
+                        <div class="circle"></div>условия доставки
+                    </div>
+                    <div class="popup-thanks-buttons">
+                        <a class="popup-thanks-btn" href="">доставка</a>
+                        <a class="popup-thanks-btn" href="">самовывоз</a>
+                    </div>
+                    <nav>
+                        <ul class="popup-order-menu subMenuUl">
+                            <li><a class="popup-order-menu-button subMenu-item" href="#">Из какого ресторана заберете
+                                    заказ?</a>
+                                <ul class="popup-order-submenu subMenuUl">
+                                    <li><a class="subMenu-item item-submenu" href="">Ресторан FermA на Финляндском</a>
+                                    </li>
+                                    <li><a class="subMenu-item item-submenu" href="">Ресторан FermA на Синопской</a>
+                                    </li>
+                                    <li><a class="subMenu-item item-submenu" href="">ДеДа Хинкали на Литейном</a></li>
+                                    <li><a class="subMenu-item item-submenu" href="">ДеДа Хинкали на Финляндском</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="popup-order-name">
+                        <input type="text" placeholder="Имя получателя">
+                    </div>
+                    <div class="popup-order-name">
+                        <input type="text" placeholder="Комментарий к заказу">
+                        <div class="contact">
+                            <div class="popup-order-number">
+                                <label for="">Контактный телефон</label>
+                                <input type="tel" placeholder="+7">
+                            </div>
+                            <div class="popup-order-timer">
+                                <label for="">Время самовывоза</label>
+                                <input type="tel" placeholder="00:00">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popup-order-checkbox">
+                        <input type="checkbox" class="popup-order-custom-checkbox" id="speed" name="speed" value="yes">
+                        <label for="speed">Как можно скорее</label>
+                    </div>
+                    <div class="popup-order-btn">
+                        <a href="#popup-thanks" class="popup-order-button popup-link">Оформить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup-sauce" class="popup-sauce popup">
+        <div class="popup-sauce__body popup__body">
+            <div class="popup-sauce__content popup__content">
+                <a href="#" class="popup-sauce__close close__popup"><img src="./img/icon/close_popup.svg" alt=""></a>
+                <div class="popup-sauce-title">Выберите по вкусу:</div>
+                <div class="popup-sauce-subtitle">добавьте опцию</div>
+                <div class="popup-sauce-line"></div>
+                <div class="popup-sause-content">
+                    <div class="popup-sause-checkbox">
+                        <input type="checkbox" class="custom-checkbox" id="aioli" name="aioli" value="yes">
+                        <label for="aioli">Соус айоли</label>
+                    </div>
+                    <div class="popup-sause-checkbox">
+                        <input type="checkbox" class="custom-checkbox" id="curry" name="curry" value="yes">
+                        <label for="curry">Соус карри</label>
+                    </div>
+                    <div class="popup-sause-checkbox">
+                        <input type="checkbox" class="custom-checkbox" id="mushroom" name="mushroom" value="yes">
+                        <label for="mushroom">Соус грибной</label>
+                    </div>
+                    <div class="popup-sause-checkbox">
+                        <input type="checkbox" class="custom-checkbox" id="Andalusian" name="Andalusian" value="yes">
+                        <label for="Andalusian">Соус андалузский</label>
+                    </div>
+                    <div class="popup-sause-checkbox">
+                        <input type="checkbox" class="custom-checkbox" id="tar-tar" name="tar-tar" value="yes">
+                        <label for="tar-tar">Соус тар-тар</label>
+                    </div>
+                    <div class="popup-sause-checkbox">
+                        <input type="checkbox" class="custom-checkbox" id="pesto" name="pesto" value="yes">
+                        <label for="pesto">Соус песто</label>
+                    </div>
+                    <div class="popup-sause-checkbox">
+                        <input type="checkbox" class="custom-checkbox" id="garlic" name="garlic" value="yes">
+                        <label for="garlic">Соус чесночный</label>
+                    </div>
+                    <div class="popup-sause-checkbox">
+                        <input type="checkbox" class="custom-checkbox" id="BBQ" name="BBQ" value="yes">
+                        <label for="BBQ">Соус BBQ</label>
+                    </div>
+                    <div class="popup-sause-checkbox">
+                        <input type="checkbox" class="custom-checkbox" id="cheese" name="cheese" value="yes">
+                        <label for="cheese">Соус сырный</label>
+                    </div>
+                    <div class="popup-sause-checkbox">
+                        <input type="checkbox" class="custom-checkbox" id="yogurt" name="yogurt" value="yes">
+                        <label for="yogurt">Соус мацони</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup-thanks" class="popup-thanks popup">
+        <div class="popup-thanks__body popup__body">
+            <div class="popup-thanks__content popup__content">
+                <a href="#" class="popup-thanks__close close__popup"><img src="./img/icon/close_popup.svg" alt=""></a>
+                <div class="popup-thanks-title">Спасибо</div>
+                <div class="popup-thanks-subtitle">Спасибо</div>
+                <div class="popup-thanks-line"></div>
+                <div class="popup-thanks__block">
+                    <div class="popup-thanks-delivery">
+                        <div class="circle"></div>условия доставки
+                    </div>
+                    <div class="popup-thanks__block-title">СПАСИБО<br />ЗА ВАШ ЗАКАЗ</div>
+                    <div class="popup-thanks__block-text">НАШ МЕНЕДЖЕР СВЯЖЕТСЯ С ВАМИ В БЛИЖАЙШЕЕ ВРЕМЯ ДЛЯ УТОЧНЕНИЯ
+                        ДАННЫХ И ПОДТВЕРЖДЕНИЯ ЗАКАЗА</div>
+                    <a href="" class="popup-thanks__block-btn">посмотреть рестораны</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup-menu" class="popup-menu popup">
+        <div class="popup-menu__body popup__body">
+            <div class="popup-menu__content popup__content">
+                <a href="#" class="popup-menu__close close__popup"><img src="./img/icon/close_popup.svg" alt=""></a>
+                <div class="popup__menu-title">Вкусно</div>
+                <div class="popup__menu-subtitle">Меню</div>
+                <div class="popup-menu-line"></div>
+                <div class="popup__menu-block">
+                    <a class="popup__menu-block-btn">
+                        Все меню
+                    </a>
+                    <a class="popup__menu-block-btn">
+                        Супы
+                    </a>
+                    <a class="popup__menu-block-btn">
+                        Горячие закуски
+                    </a>
+                    <a class="popup__menu-block-btn">
+                        Паста
+                    </a>
+                    <a class="popup__menu-block-btn">
+                        Горячие блюда
+                    </a>
+                    <a class="popup__menu-block-btn">
+                        Гриль и коптильня
+                    </a>
+                    <a class="popup__menu-block-btn">
+                        Гарниры
+                    </a>
+                    <a class="popup__menu-block-btn">
+                        Десерты
+                    </a>
+                    <a class="popup__menu-block-btn">
+                        Хлеб и пирожки
+                    </a>
+                    <a class="popup__menu-block-btn">
+                        Кулинария
+                    </a>
+                    <a class="popup__menu-block-btn">
+                        Напитки
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup-map" class="popup-map popup">
+        <div class="popup-map__body popup__body">
+            <div class="popup-map__content popup__content">
+                <a href="#" class="popup-map__close close__popup"><img src="./img/icon/close_popup.svg" alt=""></a>
+                <div class="popup-map-title">Контакты</div>
+                <div class="popup-map-subtitle">Контакты</div>
+                <div class="popup-map-line"></div>
+                <div class="popup-map__block">
+                    <div class="popup-map__block-descr">
+                        Ежедневно с 11:00 до 22:00
+                    </div>
+                    <div class="popup-map__block__items">
+                        <div class="popup-map__block__item">
+                            <div class="popup-map__block__item-title">Служба доставки:</div>
+                            <div class="popup-map__block__item-wrapper">
+                                <div class="popup-map__block__item-icon"><img src="./img/icon/call.svg" alt=""></div>
+                                <div class="popup-map__block__item-number">8 (812) 643 04 04</div>
+                            </div>
+                        </div>
+                        <div class="popup-map__block__item">
+                            <div class="popup-map__block__item-title">Служба бронирования:</div>
+                            <div class="popup-map__block__item-wrapper">
+                                <div class="popup-map__block__item-icon"><img src="./img/icon/call.svg" alt=""></div>
+                                <div class="popup-map__block__item-number">8 (812) 643 04 30</div>
+                            </div>
+                        </div>
+                        <div class="popup-map__block__item">
+                            <div class="popup-map__block__item-title">Банкетная служба:</div>
+                            <div class="popup-map__block__item-wrapper">
+                                <div class="popup-map__block__item-icon"><img src="./img/icon/call.svg" alt=""></div>
+                                <div class="popup-map__block__item-number">8 (965) 010 62 61</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup_map">
+                    <div class="map__container _container">
+                        <div class="map__item">
+                            <script type="text/javascript" charset="utf-8" async
+                                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adecc5dee05ef3f4a9d5c31885df697ceb6c979ed216f3307366146026bfb76a8&amp;width=100%25&amp;height=181&amp;lang=ru_RU&amp;scroll=true"></script>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup__map-online">
+                    <div class="popup__map-online__title">
+                        Мы всегда на связи:
+                    </div>
+                    <div class="popup__map-online__wrapper">
+                        <div class="popup__map-online__icon-item">
+                            <a href="" class="map__icon"><img src="./img/icon/WHatsUp.svg" alt="" srcset=""></a>
+                        </div>
+                        <div class="popup__map-online__icon-item">
+                            <a href="" class="map__icon"><img src="./img/icon/Telegram.svg" alt="" srcset=""></a>
+                        </div>
+                        <div class="popup__map-online__title">
+                            info@white-group.ru
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#" class="popup__close close__popup"><img src="./img/icon/close.svg" alt=""></a>
+                <div class="popup__title-group">
+                    <div class="popup__text-background-top"></div>
+                    <div class="popup__title">Откуда вам доставить?</div>
+                    <div class="popup__text-background-bottom"></div>
+                </div>
+                <div class="popup__descr-items">
+                    <div class="popup__descr-item _popup_item">
+                        <div class="popup__img-ferma"><img src="./img/popup/ferma.svg" alt=""></div>
+                        <div class="popup__text">Рестораны FermA - это атмосфера праздника и уюта, это вкусная еда, при
+                            приготовлении которой мы придерживаемся гастрономической философии, сконцентрированной в
+                            девизе «NATURAL FOOD». Настоящая, привычная еда из <br />лучших продуктов!</div>
+                        <div class="popup__btn"><a class="popup__button" href="">Выбрать</a></div>
+                    </div>
+                    <div class="popup__descr-item">
+                        <div class="popup__img-hincali"><img src="./img/popup/hincali.svg" alt=""></div>
+                        <div class="popup__text">«ДеДа Хинкали» - это уютная обстановка , вкусная еда и демократичные
+                            цены. Собирайтесь большой компанией пить вино, слушать грузинские песни или просто приходите
+                            пообедать, чтобы на время сбежать от городской суеты!
+                        </div>
+                        <div class="popup__btn"><a class="popup__button" href="">Выбрать</a></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
